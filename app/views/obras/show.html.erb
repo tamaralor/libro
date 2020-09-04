@@ -1,0 +1,15 @@
+<p>
+  <strong>   Título:   </strong>
+  <%= @obra.titulo  %>
+</p>
+
+
+<p>
+  <strong>   Autor:   </strong>
+  <%= @obra.autor  %>
+</p>
+
+
+<%= link_to 'Edición', edit_obra_path(@obra)  %>
+<%= link_to 'Volver', obras_path  %>
+
